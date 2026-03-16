@@ -721,11 +721,7 @@ end;
 
 
 % %Revert onlinefilename for SP1 races
-% part1 = 'aws configure set aws_access_key_id AKIARMARPY3XJ6R7X7OV';
-% part2 = 'aws configure set aws_secret_access_key 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';
-% part3 = 'aws configure set default.region ap-southeast-2';
-% command = [part1 ' & ' part2 ' & ' part3];
-% [status, out] = system(command);
+% Insert code to connect to AWS
 % 
 % command = 'aws s3 ls s3://sparta2-prod/sparta2-data/ --recursive';
 % [status, out] = system(command);
